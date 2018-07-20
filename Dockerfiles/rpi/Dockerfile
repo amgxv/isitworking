@@ -1,6 +1,6 @@
 from resin/raspberry-pi-alpine
 
-COPY isitworking_app /app/
+COPY ../isitworking_app /app/
 WORKDIR /app
 
 RUN apk update && \
